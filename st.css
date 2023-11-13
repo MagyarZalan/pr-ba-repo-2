@@ -1,0 +1,28 @@
+/*
+solid:folytonos
+dotted:pöttyös
+dashed:szaggatott vonal
+*/
+
+#p1{
+    border:1px solid blue;
+}
+
+#p2{
+    border-top: 2px dotted #336699;
+    width:fit-content;/*A hossz igazodjon a tartalomhoz*/
+    
+}
+
+/*
+    border-top:felső
+    border-bottom:alsó
+    border-left:bal oldali
+    border-right: jobb oldali
+
+*/
+#p3{
+    border-left-color: green;
+    border-left-width: 3px;
+    border-left-style: dashed;
+}
